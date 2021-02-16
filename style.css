@@ -1,0 +1,23 @@
+/* Board properties */
+
+.board {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, auto);
+  width: 310px;
+  margin:50px auto;
+
+}
+
+.cell {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  cursor: crosshair;
+}
+
+.button-container {
+  text-align: center;
+}
